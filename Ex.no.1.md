@@ -48,7 +48,6 @@ Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
 ```html
-code here
 <!DOCTYPE html>
 <html lang="en">
 <head>

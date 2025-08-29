@@ -58,12 +58,12 @@ code here
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-color: #4dd0e1; /* A vibrant light blue */
-            --secondary-color: #26a69a; /* A vibrant cyan */
-            --accent-color: #ffb74d; /* A subtle orange for highlights */
-            --text-color: #e0e0e0; /* Soft white for text */
-            --light-bg: #212121; /* Dark gray for cards/sections */
-            --dark-bg: #121212; /* Very dark gray for body background */
+            --primary-color: #4dd0e1;
+            --secondary-color: #26a69a;
+            --accent-color: #ffb74d;
+            --text-color: #e0e0e0;
+            --light-bg: #212121;
+            --dark-bg: #121212;
             --white: #ffffff;
             --shadow-light: 0 4px 8px rgba(0, 0, 0, 0.15);
             --shadow-medium: 0 6px 12px rgba(0, 0, 0, 0.25);
@@ -79,11 +79,10 @@ code here
             scroll-behavior: smooth;
         }
 
-        /* Header Styling */
         header {
             background: linear-gradient(135deg, #1f1f1f, #2b2b2b);
             color: var(--white);
-            padding: 2.5rem 0 1.5rem; /* Reduced padding */
+            padding: 2.5rem 0 1.5rem;
             text-align: center;
             position: relative;
             box-shadow: var(--shadow-medium);
@@ -121,13 +120,12 @@ code here
             animation: fadeInUp 1s ease-out 0.3s;
         }
 
-        /* Main Content Layout */
         main {
             padding: 1.5rem 1rem;
             max-width: 960px;
             margin: auto;
             display: grid;
-            gap: 1rem; /* Reduced gap */
+            gap: 1rem;
         }
 
         section {
@@ -136,7 +134,7 @@ code here
             border-radius: 12px;
             box-shadow: var(--shadow-medium);
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-            margin-bottom: 0.5rem; /* Reduced bottom margin */
+            margin-bottom: 0.5rem;
         }
 
         section:hover {
@@ -155,7 +153,6 @@ code here
             font-weight: 700;
         }
 
-        /* Skills Section */
         .skills-container ul {
             list-style-type: none;
             padding: 0;
@@ -190,12 +187,11 @@ code here
             color: var(--white);
         }
 
-        /* Projects & Hackathons */
         .project-card,
         .hackathon-entry {
             border-left: 5px solid var(--primary-color);
             padding: 1.5rem;
-            margin-bottom: 1rem; /* Reduced margin */
+            margin-bottom: 1rem;
             background: var(--dark-bg);
             border-radius: 8px;
             transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
@@ -227,7 +223,6 @@ code here
             margin-bottom: 0.75rem;
         }
 
-        /* Links */
         a {
             color: var(--primary-color);
             text-decoration: none;
@@ -253,15 +248,13 @@ code here
             text-align: center;
         }
 
-        /* Horizontal Rule */
         hr {
             border: 0;
             height: 1px;
             background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-            margin: 1.5rem 0; /* Reduced margin */
+            margin: 1.5rem 0;
         }
 
-        /* Footer */
         footer {
             text-align: center;
             padding: 1.5rem;
@@ -271,7 +264,6 @@ code here
             font-size: 0.9rem;
         }
 
-        /* Responsive Design */
         @media (max-width: 768px) {
             header h1 {
                 font-size: 2rem;
@@ -294,7 +286,6 @@ code here
             }
         }
 
-        /* Animations */
         @keyframes fadeInDown {
             from {
                 opacity: 0;
